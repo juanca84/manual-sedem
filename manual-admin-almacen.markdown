@@ -66,3 +66,6 @@ Posteriormente deberá entregar los alimentos solicitados, presionando el botón
 Una vez concluida la asignación de producto se procederá aceptar la entrega y se consolidará la salida de almacenes.
 
 ![entrega_solicitud_salida](imagenes/entrega_solicitud_salida2.png  "Entrega de la solicitud de salida")
+
+## 4 Traspasos ##
+Los traspasos son entradas y salidas
