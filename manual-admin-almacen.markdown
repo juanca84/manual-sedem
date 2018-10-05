@@ -68,4 +68,64 @@ Una vez concluida la asignación de producto se procederá aceptar la entrega y 
 ![entrega_solicitud_salida](imagenes/entrega_solicitud_salida2.png  "Entrega de la solicitud de salida")
 
 ## 4 Traspasos ##
-Los traspasos son entradas y salidas
+Los traspasos son entradas y salidas de alimentos  que se realizan entre almacenes ya sean de la misma distribuidora o de otras distribuidoras.
+
+### 4.1 Solicitud de traspaso ###
+Esta se realiza desde el almacén que se quiere que ingresen alimentos de otro almacén es decir del almacén destino.
+Para realizar una solictud de traspaso debe elegir la opción traspasos.
+
+![menu_traspasos](imagenes/menu_traspasos.png  "Menu de traspasos")
+
+Una vez presionada la opción de traspasos el sistema mostrará la solicitud de traspaso.
+
+![nuevo_traspaso](imagenes/nuevo_traspaso.png  "Nueva solicitud de traspaso")
+
+El usuario podrá llenar la solicitud de los alimentos que quiere que le traspasen a su almacén.
+
+![ver_traspaso](imagenes/ver_traspaso.png  "Ver solicitud de traspaso")
+
+Posteriormente la solicitud de traspaso será enviada al encardago del almacé a quien se le solicita el traspaso es decir el almacén origen.
+
+### 4.2 Entrega de traspaso ###
+
+El encargado del almacén origen en su bandeja de solicitudes de salida podrá ver las solicitudes que le llegaron.
+
+![listado_traspasos](imagenes/listado_traspasos.png  "Listado de traspasos solicitados")
+
+Una vez seleccionada la solicitud de traspaso que se debe atender se procederá a la entrega del traspaso.
+
+![entrega_traspaso](imagenes/entrega_traspaso.png  "Entrega de alimentos a la solicitud de traspasos")
+
+![entrega_traspaso2](imagenes/entrega_traspaso2.png  "Entrega de alimentos a la solicitud de traspasos")
+
+Finalmente se consolidará la entrega del traspaso.
+
+![ver_traspaso2](imagenes/ver_traspaso2.png  "Ver solicitud de traspasos")
+
+### 5. Peticiones ###
+
+Para la entrega del subsidio a la madre debe elegir la opción 'Peticiones'.
+
+![menu_peticiones](imagenes/menu_peticiones.png  "Menú peticiones")
+
+Una vez seleccionada la opción, el usuario visualizará el listado de madres al que se debe atender. Este listado es alimentado por el sistema de atención a las madres del sistema de subsidios mediante un servicio web.
+
+![listado_peticiones](imagenes/listado_peticiones.png  "Menú peticiones")
+
+En la parte derecha de este listado se encuentra el botón 'atender' de cada una de las personas para atender, para proceder con la atención el usuario debe presionar dicho botón.
+
+![atender_peticion](imagenes/atender_peticion.png  "Atender petición")
+
+En la ventana el usuario deberá registrar los productos que van siendo entregados a la madre. los productos que han sido entregados son marcados con color verde y se actualizará el estado de 'Espera' a 'Listo'.
+
+![entrega_peticion](imagenes/entrega_peticion.png  "Entrega petición")
+
+Una vez concluida la entrega de todos los productos se habilitará el botón 'Guardar Salida'.
+
+![guardar_peticion](imagenes/guardar_peticion.png  "Guardar salida")
+
+El sistema pedirá la confirmación.
+
+![confirmacion_salida](imagenes/confirmacion_salida.png  "Confirmación de salida")
+
+Se debe aceptar la salida para atender a la siguiente persona que esta en espera en el listado de peticiones.
